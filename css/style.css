@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 10rem auto;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  margin-bottom: 3rem;
+  background-color: blueviolet;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  padding: 1rem 0;
+  font-size: 2rem;
+  width: 20%;
+  color: blue;
+  border-bottom: 1px solid black;
+}
